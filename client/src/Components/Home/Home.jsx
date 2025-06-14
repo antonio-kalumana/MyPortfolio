@@ -6,7 +6,6 @@ import ScrollDown from "./ScrollDown.jsx";
 import Skills from "../Skills/Skills.jsx";
 import Services from "../Services/Services.jsx";
 import Contact from "../Contact/Contact.jsx";
-import CatFact from "../catApi/catFact.jsx"
 
 export default function Home() {
   return (
@@ -18,10 +17,6 @@ export default function Home() {
       <Skills/>
       <Services/>
       <Contact/>
-      <div>
-      <h1>It is just a test to my backend API</h1>
-      <CatFact />
-      </div>
     </section>
   );
 }
